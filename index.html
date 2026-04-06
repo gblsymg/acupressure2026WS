@@ -328,6 +328,19 @@
     .program-grid { grid-template-columns: 1fr; }
   }
 
+  /* ─── BONUS SECTION ─── */
+  .bonus-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    margin-top: 48px;
+    background: var(--light-tan);
+  }
+
+  @media (max-width: 680px) {
+    .bonus-grid { grid-template-columns: 1fr; }
+  }
+
   .program-card {
     background: var(--warm-white);
     padding: 36px 32px;
@@ -1062,25 +1075,6 @@
 
 
 
-<!-- TARGET -->
-<div class="intro-section" style="padding-top:0;">
-  <div class="intro-inner">
-    <div class="section-label reveal">For Who</div>
-    <h2 class="reveal">対象となる方</h2>
-    <div class="target-grid reveal">
-      <div class="target-card"><div class="target-dot"></div><div class="target-text">フェイシャル技術者の方</div></div>
-      <div class="target-card"><div class="target-dot"></div><div class="target-text">施術の精度を高めたい方</div></div>
-      <div class="target-card"><div class="target-dot"></div><div class="target-text">理論と技術を結びつけたい方</div></div>
-      <div class="target-card"><div class="target-dot"></div><div class="target-text">再現性のある手技を習得したい方</div></div>
-      <div class="target-card"><div class="target-dot"></div><div class="target-text">施術単価をアップしたい方</div></div>
-      <div class="target-card"><div class="target-dot"></div><div class="target-text">技術力で差別化を図りたい方</div></div>
-      <div class="target-card"><div class="target-dot"></div><div class="target-text">一生使える技術を学びたい方</div></div>
-    </div>
-  </div>
-</div>
-
-
-
 <!-- OVERVIEW -->
 <div class="overview-section">
   <div class="overview-inner">
@@ -1110,6 +1104,37 @@
     </div>
   </div>
 </div>
+
+<!-- BONUS -->
+<section class="reveal" style="max-width:100%;background:var(--cream);padding:100px 24px;">
+  <div style="max-width:860px;margin:0 auto;">
+    <div class="section-label">Special Bonus</div>
+    <h2>追加特典 🏅</h2>
+    <p>日本初開催を記念して、講師とコーディネーターによるさらなるフェイシャル技術の一部を追加で履修可能。本講座内容とあわせてサロンワークに活かせます。</p>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:2px;margin-top:48px;background:var(--light-tan);">
+
+      <!-- Holographic Guasha -->
+      <div style="background:var(--warm-white);padding:36px 32px;">
+        <div style="font-family:'Noto Sans JP',sans-serif;font-size:10px;letter-spacing:0.3em;color:var(--gold);margin-bottom:8px;font-weight:300;">by Sarah</div>
+        <div style="font-family:'Cormorant Garamond','Georgia',serif;font-size:22px;font-weight:400;color:var(--dark-brown);margin-bottom:4px;">Holographic Guasha</div>
+        <div style="font-size:20px;font-weight:400;color:var(--dark-brown);margin-bottom:20px;letter-spacing:0.05em;">ホログラフィック・グアシャ</div>
+        <p>ホログラフィック経絡グアシャ（かっさ）美容は特定の経穴や経絡を刺激することで気血を調整し、肌色の改善・エイジングケアなどの美容効果を目指す中医学的美容法です。</p>
+      </div>
+
+      <!-- HANAHADA Contour -->
+      <div style="background:var(--warm-white);padding:36px 32px;">
+        <div style="font-family:'Noto Sans JP',sans-serif;font-size:10px;letter-spacing:0.3em;color:var(--gold);margin-bottom:8px;font-weight:300;">by Kosuke</div>
+        <div style="font-family:'Cormorant Garamond','Georgia',serif;font-size:22px;font-weight:400;color:var(--dark-brown);margin-bottom:4px;">HANAHADA Contour</div>
+        <div style="font-size:20px;font-weight:400;color:var(--dark-brown);margin-bottom:20px;letter-spacing:0.05em;">華肌コントゥール<span style="font-size:13px;color:var(--text-light);">（仮）</span></div>
+        <p>"美しい施術が美しい肌をつくる"という考えのもと、ゆったりとした施術の心地よさを与えながら肌のコリをほぐして顔の輪郭をととのえる、エステティックならではの小顔＆リフト技術です。</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<hr class="gold-rule">
 
 <!-- INSTRUCTOR -->
 <div class="instructor-section">
@@ -1146,6 +1171,25 @@
   </div>
 </div>
 
+<!-- TARGET -->
+<div class="intro-section" style="padding-top:0;">
+  <div class="intro-inner">
+    <div class="section-label reveal">For Who</div>
+    <h2 class="reveal">対象となる方</h2>
+    <div class="target-grid reveal">
+      <div class="target-card"><div class="target-dot"></div><div class="target-text">フェイシャル技術者の方</div></div>
+      <div class="target-card"><div class="target-dot"></div><div class="target-text">施術の精度を高めたい方</div></div>
+      <div class="target-card"><div class="target-dot"></div><div class="target-text">理論と技術を結びつけたい方</div></div>
+      <div class="target-card"><div class="target-dot"></div><div class="target-text">再現性のある手技を習得したい方</div></div>
+      <div class="target-card"><div class="target-dot"></div><div class="target-text">施術単価をアップしたい方</div></div>
+      <div class="target-card"><div class="target-dot"></div><div class="target-text">技術力で差別化を図りたい方</div></div>
+      <div class="target-card"><div class="target-dot"></div><div class="target-text">一生使える技術を学びたい方</div></div>
+    </div>
+  </div>
+</div>
+
+
+
 <!-- CTA -->
 <div class="cta-section">
   <div class="cta-inner">
@@ -1162,7 +1206,7 @@
         </div>
         <div class="contact-item">
           <div class="contact-item-label">e-mail</div>
-          <a href="mailto:gbls.ymg@gmail.com">gbls.ymg@gmail.com</a>
+          <a href="/cdn-cgi/l/email-protection#91f6f3fde2bfe8fcf6d1f6fcf0f8fdbff2fefc"><span class="__cf_email__" data-cfemail="c1a6a3adb2efb8aca681a6aca0a8adefa2aeac">[email&#160;protected]</span></a>
         </div>
       </div>
     </div>
@@ -1176,7 +1220,7 @@
   <div class="footer-sub">The Art of points facial techniques &nbsp;|&nbsp; Premium Workshop by Sarah Nong</div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   // Intersection Observer for scroll reveals
   const reveals = document.querySelectorAll('.reveal');
   const observer = new IntersectionObserver((entries) => {
@@ -1209,13 +1253,4 @@
 
   // 画像・フォントの読み込み完了後にも送信
   if (document.fonts && document.fonts.ready) {
-    document.fonts.ready.then(sendHeight);
-  }
-
-  // MutationObserver でDOM変化にも対応
-  var mo = new MutationObserver(sendHeight);
-  mo.observe(document.body, { childList: true, subtree: true, attributes: true });
-
-</script>
-</body>
-</html>
+    docu
